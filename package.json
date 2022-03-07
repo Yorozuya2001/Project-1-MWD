@@ -1,0 +1,25 @@
+{
+  "name": "muebleswalter",
+  "version": "1.0.0",
+  "description": "Muebleria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss styles-files/styles.scss styles-files/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yorozuya2001/Project-1-MWD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yorozuya2001/Project-1-MWD/issues"
+  },
+  "homepage": "https://github.com/Yorozuya2001/Project-1-MWD#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
