@@ -14,11 +14,13 @@
     .card {
         border: 3px solid #F9813A;
 
+
         .card-body {
             border-top: 3px solid #F9813A;
 
             .cardTitulo {
                 font-family: 'Anton', sans-serif;
+                font-size: 1.5rem;
                 text-align: center;
             }
 
@@ -28,5 +30,6 @@
             }
         }
     }
+
 
 }

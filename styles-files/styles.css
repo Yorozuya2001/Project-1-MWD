@@ -55,6 +55,7 @@ font-family: 'Roboto', sans-serif; */
       border-top: 3px solid #F9813A; }
       .main .card .card-body .cardTitulo {
         font-family: 'Anton', sans-serif;
+        font-size: 1.5rem;
         text-align: center; }
       .main .card .card-body .card-text {
         font-family: 'Roboto', sans-serif;
@@ -73,6 +74,8 @@ font-family: 'Roboto', sans-serif; */
       vertical-align: baseline;
       margin-bottom: 0px;
       margin-left: 20px; }
+    .footer__divFlex__decorationNone {
+      color: #FCF1F1; }
     .footer__divFlex__divCol {
       margin-bottom: 20px; }
     .footer__divFlex__transform:hover {
