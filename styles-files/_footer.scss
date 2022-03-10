@@ -1,0 +1,34 @@
+.footer {
+    background-color: #1A1C20;
+    border-top: 3px solid #F9813A;
+
+    .pt {
+        padding-top: 20px;
+    }
+
+    &__divFlex {
+        display: flex;
+        flex-direction: column;
+
+        &__parrafo {
+            color: #FCF1F1;
+            vertical-align: baseline;
+            margin-bottom: 0px;
+            margin-left: 20px;
+        }
+
+        &__divCol {
+            margin-bottom: 20px;
+        }
+
+        &__transform:hover {
+            transform: scale(1.5, 1.5);
+            transition: transform 0.7s;
+
+        }
+    }
+
+    .color {
+        color: #FCF1F1;
+    }
+}

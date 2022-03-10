@@ -1,0 +1,82 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+.header {
+  background-color: #1A1C20; }
+  .header__nav__div {
+    display: flex;
+    justify-content: end; }
+    .header__nav__div__ul {
+      background-color: #FCF1F1;
+      color: black;
+      margin: 10px; }
+      .header__nav__div__ul__li {
+        display: inline-block;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        border-top: 4px solid #F9813A; }
+        .header__nav__div__ul__li__a {
+          color: #000000;
+          text-decoration: none;
+          font-size: 1.3rem;
+          display: block;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-right: 50px;
+          padding-left: 50px; }
+        .header__nav__div__ul__li__a:hover {
+          color: white;
+          border-color: white;
+          transform: scale(1.3, 1.3);
+          transition: all 0.5s; }
+      .header__nav__div__ul__li:hover {
+        background-color: #F9813A;
+        color: white;
+        transition: all 0.8s; }
+  .header .color {
+    color: #FCF1F1; }
+
+.main {
+  background-color: #FCF1F1; }
+  .main .titulo {
+    font-size: 4rem;
+    font-family: 'Anton', sans-serif; }
+  .main__padding-maring {
+    padding-top: 50px;
+    margin-bottom: 50px; }
+  .main .card {
+    border: 3px solid #F9813A; }
+    .main .card .card-body {
+      border-top: 3px solid #F9813A; }
+      .main .card .card-body .cardTitulo {
+        font-family: 'Anton', sans-serif;
+        text-align: center; }
+      .main .card .card-body .card-text {
+        font-family: 'Roboto', sans-serif;
+        text-align: center; }
+
+.footer {
+  background-color: #1A1C20;
+  border-top: 3px solid #F9813A; }
+  .footer .pt {
+    padding-top: 20px; }
+  .footer__divFlex {
+    display: flex;
+    flex-direction: column; }
+    .footer__divFlex__parrafo {
+      color: #FCF1F1;
+      vertical-align: baseline;
+      margin-bottom: 0px;
+      margin-left: 20px; }
+    .footer__divFlex__divCol {
+      margin-bottom: 20px; }
+    .footer__divFlex__transform:hover {
+      transform: scale(1.5, 1.5);
+      transition: transform 0.7s; }
+  .footer .color {
+    color: #FCF1F1; }

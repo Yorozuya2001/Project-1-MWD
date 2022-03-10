@@ -1,0 +1,32 @@
+.main {
+    background-color: #FCF1F1;
+
+    .titulo {
+        font-size: 4rem;
+        font-family: 'Anton', sans-serif;
+    }
+
+    &__padding-maring {
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        border: 3px solid #F9813A;
+
+        .card-body {
+            border-top: 3px solid #F9813A;
+
+            .cardTitulo {
+                font-family: 'Anton', sans-serif;
+                text-align: center;
+            }
+
+            .card-text {
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+            }
+        }
+    }
+
+}
