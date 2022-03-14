@@ -27,18 +27,22 @@
 }
 
 @media screen and (max-width: 576px) {
-    .media {
-        flex-direction: column;
-    }
-
-    .footer__divFlex__divCol {
-        justify-content: center;
-    }
 
     .col-sm-3 {
         padding-top: 24px;
         padding-bottom: 24px;
         display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .media {
+        flex-direction: column;
+    }
+
+    .footer__divFlex__divCol {
         justify-content: center;
     }
 }
