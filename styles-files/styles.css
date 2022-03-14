@@ -50,7 +50,8 @@ font-family: 'Roboto', sans-serif; */
     padding-top: 50px;
     margin-bottom: 50px; }
   .main .card {
-    border: 3px solid #F9813A; }
+    border: 3px solid #F9813A;
+    width: 18rem; }
     .main .card .card-body {
       border-top: 3px solid #F9813A; }
       .main .card .card-body .cardTitulo {
@@ -83,3 +84,38 @@ font-family: 'Roboto', sans-serif; */
       transition: transform 0.7s; }
   .footer .color {
     color: #FCF1F1; }
+
+@media screen and (min-width: 320px) {
+  .main .card {
+    width: 16rem; } }
+
+@media screen and (min-width: 425px) {
+  .main .card {
+    width: 18rem; } }
+
+@media screen and (min-width: 576px) {
+  .main .card {
+    width: 8rem; } }
+
+@media screen and (min-width: 768px) {
+  .main .card {
+    width: 11rem; } }
+
+@media screen and (max-width: 576px) {
+  .media {
+    flex-direction: column; }
+  .footer__divFlex__divCol {
+    justify-content: center; }
+  .col-sm-3 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center; } }
+
+@media screen and (min-width: 1024px) {
+  .main .card {
+    width: 14rem; } }
+
+@media screen and (min-width: 1440px) {
+  .main .card {
+    width: 18rem; } }
