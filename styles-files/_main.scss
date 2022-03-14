@@ -32,5 +32,36 @@
         }
     }
 
+    &__ProductoBoton {
+        border: 3px solid #F9813A;
+        width: 180px;
+        text-align: center;
+        background-color: #1A1C20;
+        border-radius: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: #FCF1F1;
+    }
+
+    &__ProductoBoton:hover {
+        background-color: #F9813A;
+        border-color: black;
+        transition: all 1s;
+        color: #FFD5CD;
+    }
+
+    .listBorder {
+        border-top: 3px solid #F9813A;
+        border-bottom: 3px solid #F9813A;
+    }
+
+    .listBorder div {
+        border-right: 3px solid #F9813A;
+        border-left: 3px solid #F9813A;
+    }
+
 
 }
