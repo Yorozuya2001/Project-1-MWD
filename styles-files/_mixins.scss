@@ -53,8 +53,22 @@
     }
 }
 
+
+@mixin px425 {
+    @media only screen and (max-width: 425px) {
+        @content;
+    }
+}
+
+
 @mixin px375 {
     @media only screen and (max-width: 375px) {
+        @content;
+    }
+}
+
+@mixin px350 {
+    @media only screen and (max-width: 350px) {
         @content;
     }
 }

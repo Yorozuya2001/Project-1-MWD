@@ -239,10 +239,14 @@ font-family: 'Roboto', sans-serif; */
     grid-template-rows: 1fr 1fr 1fr;
     gap: 2rem 0.5rem;
     grid-auto-flow: row;
-    grid-template-areas: "m5002 m5002 m5004 m5004" "m5007 m5007 m5008 m5008" "m5009 m5009 m5010 m5010" "m5011 m5011 m5014 m5014" "m5016 m5017 m5018 m3" "m5016 m5017 m5018 m3" "m5025 m5025 m4 m4" "m5025 m5025 m4 m4" "m5 m5 m6 m6" "m5 m5 m6 m6" "bahiut bahiut m7 m7" "bahiut bahiut m7 m7" "ratona m8 m9 m9" "ratona m8 m9 m9"; }
+    grid-template-areas: "m5002 m5002 m5004 m5004" "m5007 m5007 m5008 m5008" "m5009 m5009 m5010 m5010" "m5011 m5011 m5014 m5014" "m5016 m5017 m4 m4" "m5016 m5017 m4 m4" "m5025 m5025 m5018 m3" "m5025 m5025 m5018 m3" "m5 m5 m6 m6" "m5 m5 m6 m6" "bahiut bahiut m7 m7" "bahiut bahiut m7 m7" "ratona m8 m9 m9" "ratona m8 m9 m9"; }
     .main .gridMue2 div img {
       width: 100%;
       height: 100%; }
+    .main .gridMue2 div img:hover {
+      transform: scale(1.2, 1.2);
+      transition: all 1s ease;
+      cursor: pointer; }
     .main .gridMue2 .c-img-dos {
       position: relative;
       display: flex;
@@ -304,11 +308,18 @@ font-family: 'Roboto', sans-serif; */
           .main .gridMue2 .c-img-dos .txt-dos {
             top: 140px;
             padding-top: 0px; } }
+        @media only screen and (max-width: 425px) {
+          .main .gridMue2 .c-img-dos .txt-dos {
+            top: 112px;
+            padding-top: 0px; } }
         @media only screen and (max-width: 375px) {
           .main .gridMue2 .c-img-dos .txt-dos {
             top: 105px;
             padding-bottom: 0px;
             padding-top: 0px; } }
+        @media only screen and (max-width: 350px) {
+          .main .gridMue2 .c-img-dos .txt-dos {
+            top: 95px; } }
         @media only screen and (max-width: 320px) {
           .main .gridMue2 .c-img-dos .txt-dos {
             top: 85px;
