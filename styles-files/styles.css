@@ -177,188 +177,62 @@ font-family: 'Roboto', sans-serif; */
             background-color: rgba(249, 129, 58, 0.8); } }
         @media only screen and (max-width: 576px) {
           .main .gridMue .c-img .txt {
-            top: 140px;
+            top: 145px;
             padding-top: 0px;
             background-color: rgba(249, 129, 58, 0.8); } }
         @media only screen and (max-width: 475px) {
           .main .gridMue .c-img .txt {
-            top: 105px;
+            top: 110px;
             padding-top: 0px; } }
         @media only screen and (max-width: 375px) {
           .main .gridMue .c-img .txt {
-            top: 88px;
+            top: 93px;
             padding-bottom: 0px;
             padding-top: 0px; } }
         @media only screen and (max-width: 320px) {
           .main .gridMue .c-img .txt {
-            top: 70px;
+            top: 75px;
             padding-bottom: 0px;
             padding-top: 0px; } }
-      .main .gridMue .c-img:hover .txt {
-        opacity: 1;
-        cursor: pointer; }
-    .main .gridMue .m1 {
-      grid-area: m1; }
-    .main .gridMue .m2 {
-      grid-area: m2; }
-    .main .gridMue .m3 {
-      grid-area: m3; }
-    .main .gridMue .m4 {
-      grid-area: m4; }
-    .main .gridMue .m5 {
-      grid-area: m5; }
-    .main .gridMue .m6 {
-      grid-area: m6; }
-    .main .gridMue .m7 {
-      grid-area: m7; }
-    .main .gridMue .m8 {
-      grid-area: m8; }
-    .main .gridMue .m9 {
-      grid-area: m9; }
-    .main .gridMue .m10 {
-      grid-area: m10; }
-    .main .gridMue .m11 {
-      grid-area: m11; }
-    .main .gridMue .m12 {
-      grid-area: m12; }
-    .main .gridMue .m13 {
-      grid-area: m13; }
-    .main .gridMue .m14 {
-      grid-area: m14; }
-    .main .gridMue .m15 {
-      grid-area: m15; }
-    .main .gridMue .m16 {
-      grid-area: m16; }
-    .main .gridMue .m17 {
-      grid-area: m17; }
-    .main .gridMue .m18 {
-      grid-area: m18; }
-  .main .gridMue2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 2rem 0.5rem;
-    grid-auto-flow: row;
-    grid-template-areas: "m5002 m5002 m5004 m5004" "m5007 m5007 m5008 m5008" "m5009 m5009 m5010 m5010" "m5011 m5011 m5014 m5014" "m5016 m5017 m5018 m3" "m5016 m5017 m5018 m3" "m5025 m5025 m4 m4" "m5025 m5025 m4 m4" "m5 m5 m6 m6" "m5 m5 m6 m6" "bahiut bahiut m7 m7" "bahiut bahiut m7 m7" "ratona m8 m9 m9" "ratona m8 m9 m9"; }
-    .main .gridMue2 div img {
-      width: 100%;
-      height: 100%; }
-    .main .gridMue2 .c-img-dos {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden; }
-      .main .gridMue2 .c-img-dos .txt-dos {
-        text-align: center;
-        position: absolute;
-        top: 430px;
-        background-color: rgba(249, 129, 58, 0.9);
-        padding: 10px 20px;
-        width: 100%;
-        transition: all .5s;
-        opacity: 1; }
-        .main .gridMue2 .c-img-dos .txt-dos h4 {
-          font-size: 2rem;
-          font-family: 'Anton', sans-serif; }
-          @media screen and (max-width: 1024px) {
-            .main .gridMue2 .c-img-dos .txt-dos h4 {
-              font-size: 1.6rem; } }
-          @media only screen and (max-width: 768px) {
-            .main .gridMue2 .c-img-dos .txt-dos h4 {
-              font-size: 1.3rem; } }
-          @media only screen and (max-width: 576px) {
-            .main .gridMue2 .c-img-dos .txt-dos h4 {
-              font-size: 1rem; } }
-        @media screen and (max-width: 1399px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 360px; } }
-        @media screen and (max-width: 1199px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 305px;
-            padding-top: 0px; } }
-        @media screen and (max-width: 1024px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 310px;
-            padding-top: 0px; } }
-        @media screen and (max-width: 991px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 225px;
-            padding-top: 0px; } }
-        @media only screen and (max-width: 768px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 230px;
-            padding-top: 0px;
-            background-color: rgba(249, 129, 58, 0.8); } }
-        @media screen and (max-width: 767px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 165px;
-            padding-top: 0px;
-            background-color: rgba(249, 129, 58, 0.8); } }
-        @media only screen and (max-width: 576px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 165px;
-            padding-top: 0px;
-            background-color: rgba(249, 129, 58, 0.8); } }
-        @media only screen and (max-width: 475px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 140px;
-            padding-top: 0px; } }
-        @media only screen and (max-width: 375px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 105px;
-            padding-bottom: 0px;
-            padding-top: 0px; } }
-        @media only screen and (max-width: 320px) {
-          .main .gridMue2 .c-img-dos .txt-dos {
-            top: 85px;
-            padding-bottom: 0px;
-            padding-top: 0px; } }
-      .main .gridMue2 .c-img-dos:hover .txt-dos {
-        opacity: 1;
-        cursor: pointer; }
-    .main .gridMue2 .m5002 {
-      grid-area: m5002; }
-    .main .gridMue2 .m5004 {
-      grid-area: m5004; }
-    .main .gridMue2 .m5008 {
-      grid-area: m5008; }
-    .main .gridMue2 .m5007 {
-      grid-area: m5007; }
-    .main .gridMue2 .m5009 {
-      grid-area: m5009; }
-    .main .gridMue2 .m5010 {
-      grid-area: m5010; }
-    .main .gridMue2 .m5011 {
-      grid-area: m5011; }
-    .main .gridMue2 .m5014 {
-      grid-area: m5014; }
-    .main .gridMue2 .m5017 {
-      grid-area: m5017; }
-    .main .gridMue2 .m5016 {
-      grid-area: m5016; }
-    .main .gridMue2 .m5018 {
-      grid-area: m5018; }
-    .main .gridMue2 .m5025 {
-      grid-area: m5025; }
-    .main .gridMue2 .m3 {
-      grid-area: m3; }
-    .main .gridMue2 .m4 {
-      grid-area: m4; }
-    .main .gridMue2 .m5 {
-      grid-area: m5; }
-    .main .gridMue2 .m6 {
-      grid-area: m6; }
-    .main .gridMue2 .bahiut {
-      grid-area: bahiut; }
-    .main .gridMue2 .m7 {
-      grid-area: m7; }
-    .main .gridMue2 .ratona {
-      grid-area: ratona; }
-    .main .gridMue2 .m8 {
-      grid-area: m8; }
-    .main .gridMue2 .m9 {
-      grid-area: m9; }
+    .main .gridMue:hover .txt {
+      opacity: 1;
+      cursor: pointer; }
+  .main .m1 {
+    grid-area: m1; }
+  .main .m2 {
+    grid-area: m2; }
+  .main .m3 {
+    grid-area: m3; }
+  .main .m4 {
+    grid-area: m4; }
+  .main .m5 {
+    grid-area: m5; }
+  .main .m6 {
+    grid-area: m6; }
+  .main .m7 {
+    grid-area: m7; }
+  .main .m8 {
+    grid-area: m8; }
+  .main .m9 {
+    grid-area: m9; }
+  .main .m10 {
+    grid-area: m10; }
+  .main .m11 {
+    grid-area: m11; }
+  .main .m12 {
+    grid-area: m12; }
+  .main .m13 {
+    grid-area: m13; }
+  .main .m14 {
+    grid-area: m14; }
+  .main .m15 {
+    grid-area: m15; }
+  .main .m16 {
+    grid-area: m16; }
+  .main .m17 {
+    grid-area: m17; }
+  .main .m18 {
+    grid-area: m18; }
 
 .footer {
   background-color: #1A1C20;
