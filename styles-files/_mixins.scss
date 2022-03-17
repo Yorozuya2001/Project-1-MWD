@@ -1,0 +1,67 @@
+@mixin px1400 {
+    @media screen and (max-width: 1400px) {
+        @content;
+    }
+}
+
+@mixin px1399 {
+    @media screen and (max-width: 1399px) {
+        @content;
+    }
+}
+
+@mixin px1199 {
+    @media screen and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin px991 {
+    @media screen and (max-width: 991px) {
+        @content;
+    }
+}
+
+
+@mixin laptop {
+    @media screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media only screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin px767 {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin smartphones {
+    @media only screen and (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin px475 {
+    @media only screen and (max-width: 475px) {
+        @content;
+    }
+}
+
+@mixin px375 {
+    @media only screen and (max-width: 375px) {
+        @content;
+    }
+}
+
+
+@mixin px320 {
+    @media only screen and (max-width: 320px) {
+        @content;
+    }
+}

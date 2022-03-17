@@ -6,6 +6,11 @@
         font-family: 'Anton', sans-serif;
     }
 
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     &__padding-maring {
         padding-top: 50px;
         margin-bottom: 50px;
@@ -32,6 +37,12 @@
         }
     }
 
+    .card-title {
+        font-family: 'Anton', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
     &__ProductoBoton {
         border: 3px solid #F9813A;
         width: 180px;
@@ -53,15 +64,244 @@
         color: #FFD5CD;
     }
 
-    .listBorder {
-        border-top: 3px solid #F9813A;
-        border-bottom: 3px solid #F9813A;
+    &__gridBackground {
+        background-color: #1A1C20;
+        border: 3px #F9813A solid;
+        border-radius: 10px;
+
+        &__titulo {
+            font-size: 2.5rem;
+            color: #FCF1F1;
+            font-family: 'Anton', sans-serif;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        &__parrafo {
+            font-size: 1.5rem;
+            color: #FCF1F1;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        &__col-p-0 {
+            padding: 0px;
+        }
+
+        &__img {
+            width: 100%;
+            height: 100%;
+
+        }
     }
 
-    .listBorder div {
-        border-right: 3px solid #F9813A;
-        border-left: 3px solid #F9813A;
+    .gridMue {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 2rem 0.5rem;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "m1 m2 m3"
+            "m4 m5 m6"
+            "m7 m8 m9"
+            "m10 m11 m12"
+            "m13 m14 m15"
+            "m16 m17 m18";
+
+        div img {
+            width: 100%;
+            height: 100%;
+        }
+
+        div img:hover {
+            transform: scale(1.2, 1.2);
+            transition: all 1s ease;
+            cursor: pointer;
+        }
+
+        .c-img {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+
+
+            .txt {
+                text-align: center;
+                position: absolute;
+                top: 380px;
+                background-color: rgba(249, 129, 58, 0.9);
+                padding: 10px 20px;
+                width: 100%;
+                transition: all .5s;
+                opacity: 1;
+
+
+                h4 {
+                    font-size: 2rem;
+                    font-family: 'Anton', sans-serif;
+
+                    @include laptop {
+                        font-size: 1.6rem;
+                    }
+
+                    @include tablet {
+                        font-size: 1.3rem;
+                    }
+
+                    @include smartphones {
+                        font-size: 1rem;
+                    }
+
+
+
+                }
+
+                @include px1400 {
+                    top: 375px;
+                }
+
+                @include px1399 {
+                    top: 320px;
+                }
+
+                @include px1199 {
+                    top: 270px;
+                    padding-top: 0px;
+                }
+
+
+                @include laptop {
+                    top: 275px;
+                    padding-top: 0px;
+                }
+
+                @include px991 {
+                    top: 195px;
+                    padding-top: 0px;
+                }
+
+                @include tablet {
+                    top: 202px;
+                    padding-top: 0px;
+                    background-color: rgba(249, 129, 58, 0.8);
+                }
+
+                @include px767 {
+                    top: 145px;
+                    padding-top: 0px;
+                    background-color: rgba(249, 129, 58, 0.8);
+                }
+
+                @include smartphones {
+                    top: 145px;
+                    padding-top: 0px;
+                    background-color: rgba(249, 129, 58, 0.8);
+                }
+
+                @include px475 {
+                    top: 110px;
+                    padding-top: 0px;
+                }
+
+                @include px375 {
+                    top: 93px;
+                    padding-bottom: 0px;
+                    padding-top: 0px;
+                }
+
+                @include px320 {
+                    top: 75px;
+                    padding-bottom: 0px;
+                    padding-top: 0px;
+                }
+            }
+
+        }
+
+        &:hover .txt {
+            opacity: 1;
+            cursor: pointer;
+        }
+
     }
+
+    .m1 {
+        grid-area: m1;
+    }
+
+    .m2 {
+        grid-area: m2;
+    }
+
+    .m3 {
+        grid-area: m3;
+    }
+
+    .m4 {
+        grid-area: m4;
+    }
+
+    .m5 {
+        grid-area: m5;
+    }
+
+    .m6 {
+        grid-area: m6;
+    }
+
+    .m7 {
+        grid-area: m7;
+    }
+
+    .m8 {
+        grid-area: m8;
+    }
+
+    .m9 {
+        grid-area: m9;
+    }
+
+    .m10 {
+        grid-area: m10;
+    }
+
+    .m11 {
+        grid-area: m11;
+    }
+
+    .m12 {
+        grid-area: m12;
+    }
+
+    .m13 {
+        grid-area: m13;
+    }
+
+    .m14 {
+        grid-area: m14;
+    }
+
+    .m15 {
+        grid-area: m15;
+    }
+
+    .m16 {
+        grid-area: m16;
+    }
+
+    .m17 {
+        grid-area: m17;
+    }
+
+    .m18 {
+        grid-area: m18;
+    }
+
+
 
 
 }
