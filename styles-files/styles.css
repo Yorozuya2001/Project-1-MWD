@@ -370,6 +370,17 @@ font-family: 'Roboto', sans-serif; */
       grid-area: m8; }
     .main .gridMue2 .m9 {
       grid-area: m9; }
+  .main .table-mueble {
+    width: 100%; }
+  .main table,
+  .main th,
+  .main td {
+    border: 1px solid black;
+    border-collapse: collapse; }
+  .main th,
+  .main td {
+    padding: 5px;
+    text-align: center; }
 
 .footer {
   background-color: #1A1C20;
