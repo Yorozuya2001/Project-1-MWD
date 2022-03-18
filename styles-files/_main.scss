@@ -547,6 +547,22 @@
         text-align: center;
     }
 
+    .offcanvas-header {
+        background-color: #1A1C20;
+        border-bottom: 3px solid #F9813A;
+
+        h5 {
+            color: #FCF1F1;
+        }
+    }
+
+    .text-reset {
+        background-color: white;
+    }
+
+    .offcanvas-body {
+        background-color: #FCF1F1;
+    }
 
 
 }

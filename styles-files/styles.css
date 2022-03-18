@@ -381,6 +381,15 @@ font-family: 'Roboto', sans-serif; */
   .main td {
     padding: 5px;
     text-align: center; }
+  .main .offcanvas-header {
+    background-color: #1A1C20;
+    border-bottom: 3px solid #F9813A; }
+    .main .offcanvas-header h5 {
+      color: #FCF1F1; }
+  .main .text-reset {
+    background-color: white; }
+  .main .offcanvas-body {
+    background-color: #FCF1F1; }
 
 .footer {
   background-color: #1A1C20;
