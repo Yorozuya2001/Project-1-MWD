@@ -23,12 +23,13 @@ font-family: 'Roboto', sans-serif; */
         .header__nav__div__ul__li__a {
           color: #000000;
           text-decoration: none;
-          font-size: 1.3rem;
+          font-size: 1.5rem;
           display: block;
           padding-top: 10px;
           padding-bottom: 10px;
           padding-right: 50px;
-          padding-left: 50px; }
+          padding-left: 50px;
+          font-family: 'Anton', sans-serif; }
         .header__nav__div__ul__li__a:hover {
           color: white;
           border-color: white;
@@ -233,11 +234,86 @@ font-family: 'Roboto', sans-serif; */
       grid-area: m17; }
     .main .gridMue .m18 {
       grid-area: m18; }
+  .main .gridSJ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.8fr 0.5fr;
+    gap: 2rem 0.5rem;
+    grid-template-areas: "si5 si5 si4 si4" "si2 si2 si4 si4" "si9 si9 si11 si11" "si12 si12 si6 si6" "si8 si8 si3 si3" "si10 si10 si10 si10" "si7 si7 si1 si1"; }
+    .main .gridSJ div {
+      overflow: hidden; }
+    .main .gridSJ div img {
+      width: 100%;
+      height: 100%; }
+    .main .gridSJ div img:hover {
+      transform: scale(1.2, 1.2);
+      transition: all 1.8s ease;
+      cursor: pointer; }
+    .main .gridSJ .si5 {
+      grid-area: si5; }
+    .main .gridSJ .si2 {
+      grid-area: si2; }
+    .main .gridSJ .si4 {
+      grid-area: si4; }
+    .main .gridSJ .si9 {
+      grid-area: si9; }
+    .main .gridSJ .si11 {
+      grid-area: si11; }
+    .main .gridSJ .si12 {
+      grid-area: si12; }
+    .main .gridSJ .si6 {
+      grid-area: si6; }
+    .main .gridSJ .si8 {
+      grid-area: si8; }
+    .main .gridSJ .si3 {
+      grid-area: si3; }
+    .main .gridSJ .si10 {
+      grid-area: si10; }
+    .main .gridSJ .si7 {
+      grid-area: si7; }
+    .main .gridSJ .si1 {
+      grid-area: si1; }
+  .main .gridJuego {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.5fr 1fr;
+    gap: 0.5rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas: "j4 j4 j16 j16" "j5 j5 j16 j16" "j8 j8 j15 j15" "j9 j9 j15 j15" "j1 j1 j12 j12" "j1 j1 j12 j12" "j6 j6 j7 j7"; }
+    .main .gridJuego div {
+      overflow: hidden; }
+    .main .gridJuego div img {
+      width: 100%;
+      height: 100%; }
+    .main .gridJuego div img:hover {
+      transform: scale(1.2, 1.2);
+      transition: all 1s ease;
+      cursor: pointer; }
+    .main .gridJuego .j4 {
+      grid-area: j4; }
+    .main .gridJuego .j5 {
+      grid-area: j5; }
+    .main .gridJuego .j16 {
+      grid-area: j16; }
+    .main .gridJuego .j8 {
+      grid-area: j8; }
+    .main .gridJuego .j9 {
+      grid-area: j9; }
+    .main .gridJuego .j15 {
+      grid-area: j15; }
+    .main .gridJuego .j1 {
+      grid-area: j1; }
+    .main .gridJuego .j12 {
+      grid-area: j12; }
+    .main .gridJuego .j6 {
+      grid-area: j6; }
+    .main .gridJuego .j7 {
+      grid-area: j7; }
   .main .gridMue2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 2rem 0.5rem;
+    gap: 0.5rem 0.5rem;
     grid-auto-flow: row;
     grid-template-areas: "m5002 m5002 m5004 m5004" "m5007 m5007 m5008 m5008" "m5009 m5009 m5010 m5010" "m5011 m5011 m5014 m5014" "m5016 m5017 m4 m4" "m5016 m5017 m4 m4" "m5025 m5025 m5018 m3" "m5025 m5025 m5018 m3" "m5 m5 m6 m6" "m5 m5 m6 m6" "bahiut bahiut m7 m7" "bahiut bahiut m7 m7" "ratona m8 m9 m9" "ratona m8 m9 m9"; }
     .main .gridMue2 div img {
@@ -370,7 +446,7 @@ font-family: 'Roboto', sans-serif; */
       grid-area: m8; }
     .main .gridMue2 .m9 {
       grid-area: m9; }
-  .main .table-mueble {
+  .main .table-mueble-mesa {
     width: 100%; }
   .main table,
   .main th,
@@ -491,6 +567,10 @@ font-family: 'Roboto', sans-serif; */
   border-top: 3px solid #F9813A; }
   .footer .pt {
     padding-top: 20px; }
+  .footer .parrafoStyle {
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem; }
   .footer__divFlex {
     display: flex;
     flex-direction: column; }

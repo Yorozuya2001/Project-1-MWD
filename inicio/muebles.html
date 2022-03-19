@@ -24,10 +24,10 @@
 <body>
     <header class="header sticky-lg-top">
         <nav class="navbar navbar-expand-lg navbar-light header__nav">
-            <div class="container-fluid">
-                <div>
-                    <a class="navbar-brand color ms-5" href="#"><img src="../logos/White logo - no background.png"
-                            alt="" width="100px" height="100px"></a>
+            <div class="container-fluid overflow-hidden">
+                <div data-aos="flip-up" data-aos-duration="3000">
+                    <a class="navbar-brand color ms-5" href="../index.html"><img
+                            src="../logos/White logo - no background.png" alt="" width="100px" height="100px"></a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -37,7 +37,7 @@
                 <div class="collapse navbar-collapse header__nav__div" id="navbarNavDropdown">
                     <ul class="navbar-nav header__nav__div__ul">
                         <li class="header__nav__div__ul__li nav-item">
-                            <a class=" header__nav__div__ul__li__a" aria-current="page" href="../index.html">Home</a>
+                            <a class=" header__nav__div__ul__li__a" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="header__nav__div__ul__li nav-item">
                             <a class=" header__nav__div__ul__li__a" href="./productos.html">Productos</a>
@@ -57,7 +57,10 @@
     <main class="main">
         <section>
             <h2 class="titulo text-center main__padding-maring">Muebles</h2>
-            <div class="d-flex justify-content-center py-5">
+            <div class=" d-flex flex-column align-items-center pb-5">
+                <div class="py-4">
+                    <img class="img-fluid" src="../logos/lista.png" alt="" width="180px" height="180px">
+                </div>
                 <button class="main__ProductoBoton" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     Ver Medidas y Códigos
@@ -71,7 +74,7 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <table class="table-mueble">
+                    <table class="table-mueble-mesa">
                         <tr>
                             <th>Codigo</th>
                             <th>Medidas De Lista</th>
@@ -679,6 +682,9 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center py-5">
+                <a class="main__ProductoBoton" href="../inicio/productos.html">Volver a Productos</a>
+            </div>
         </section>
         <div class="go-top-container">
             <div class="go-top-button">
@@ -694,7 +700,7 @@
                         <div class="footer__divFlex__divCol d-flex align-items-center">
                             <img src="../social/email.png" alt="" width="30px" height="30px">
                             <div class="footer__divFlex__parrafo">
-                                <a class="footer__divFlex__decorationNone"
+                                <a class="footer__divFlex__decorationNone fst-italic"
                                     href="mailto:axelvalientexd@gmail.com?Subject=Consulta%20desde%20página%20de%20MWD">ventasmwdnahuel@gmail.com
                                 </a>
                             </div>
@@ -702,13 +708,14 @@
                         <div class="footer__divFlex__divCol d-flex align-items-center">
                             <img src="../social/call.png" alt="" width="30px" height="30px">
                             <div class="footer__divFlex__parrafo">
-                                <a class="footer__divFlex__decorationNone" href="tel:+54 11 6120-3360">+54 11
+                                <a class="footer__divFlex__decorationNone fst-italic" href="tel:+54 11 6120-3360">+54 11
                                     6120-3360</a>
                             </div>
                         </div>
                         <div class="footer__divFlex__divCol d-flex align-items-center">
                             <img src="../social/marcador-de-posicion.png" alt="" width="30px" height="30px">
-                            <p class="footer__divFlex__parrafo">Gualeguaychú, Avelino Palacios.<br>B1712 Castelar,
+                            <p class="footer__divFlex__parrafo fst-italic">Gualeguaychú, Avelino Palacios.<br>B1712
+                                Castelar,
                                 Provincia de Buenos Aires. </p>
                         </div>
                     </div>
@@ -717,13 +724,14 @@
                     <div class="d-flex justify-content-center">
                         <img src="../logos/White logo - no background.png" alt="" width="100px" height="100px">
                     </div>
-                    <p class="footer__divFlex__parrafo text-center">Muebles Walter Diseño&copy;.<br>Todos los derechos
+                    <p class="footer__divFlex__parrafo text-center fst-italic">Muebles Walter Diseño&copy;.<br>Todos los
+                        derechos
                         reservados.
                     </p>
                 </div>
                 <div class="d-flex flex-column align-items-center justify-content-center">
                     <div>
-                        <p class="color text-center">Redes Sociales</p>
+                        <p class="color text-center parrafoStyle">REDES SOCIALES</p>
                     </div>
                     <div class="d-flex justify-content-between">
                         <a class="mx-lg-4 mx-3 footer__divFlex__transform" href="https://instagram.com/muebleswalterd"
@@ -743,7 +751,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="../styles-files/topbtn.js"> </script>
 
     <script>
         AOS.init({
@@ -755,7 +763,6 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-    <script src="../styles-files/topbtn.js"> </script>
 </body>
 
 </html>
