@@ -1,0 +1,236 @@
+.chenille-lola-liso {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "ch-1 ch-2 ch-3"
+        "ch-4 ch-5 ch-6"
+        "ch-7 ch-8 ch-9"
+        "ch-10 ch-11 ch-12";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.ch-1 {
+    grid-area: ch-1;
+}
+
+.ch-2 {
+    grid-area: ch-2;
+}
+
+.ch-3 {
+    grid-area: ch-3;
+}
+
+.ch-4 {
+    grid-area: ch-4;
+}
+
+.ch-5 {
+    grid-area: ch-5;
+}
+
+.ch-6 {
+    grid-area: ch-6;
+}
+
+.ch-7 {
+    grid-area: ch-7;
+}
+
+.ch-8 {
+    grid-area: ch-8;
+}
+
+.ch-9 {
+    grid-area: ch-9;
+}
+
+.ch-10 {
+    grid-area: ch-10;
+}
+
+.ch-11 {
+    grid-area: ch-11;
+}
+
+.ch-12 {
+    grid-area: ch-12;
+}
+
+// caribe pana estampada
+
+.caribe-pana-estampada {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "cpana-1 cpana-2 cpana-3"
+        "cpana-4 cpana-5 cpana-6"
+        "cpana-7 cpana-8 cpana-9"
+        "cpana-10 . .";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.cpana-1 {
+    grid-area: cpana-1;
+}
+
+.cpana-2 {
+    grid-area: cpana-2;
+}
+
+.cpana-3 {
+    grid-area: cpana-3;
+}
+
+.cpana-4 {
+    grid-area: cpana-4;
+}
+
+.cpana-5 {
+    grid-area: cpana-5;
+}
+
+.cpana-6 {
+    grid-area: cpana-6;
+}
+
+.cpana-7 {
+    grid-area: cpana-7;
+}
+
+.cpana-8 {
+    grid-area: cpana-8;
+}
+
+.cpana-9 {
+    grid-area: cpana-9;
+}
+
+.cpana-10 {
+    grid-area: cpana-10;
+}
+
+//angie VIP
+
+.angie-vip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "av-1 av-2"
+        "av-3 av-4"
+        "av-5 av-6";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.av-1 {
+    grid-area: av-1;
+}
+
+.av-2 {
+    grid-area: av-2;
+}
+
+.av-3 {
+    grid-area: av-3;
+}
+
+.av-4 {
+    grid-area: av-4;
+}
+
+.av-5 {
+    grid-area: av-5;
+}
+
+.av-6 {
+    grid-area: av-6;
+}
+
+//Chenille bolton
+
+.chenille-bolton {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "cb-1 cb-2 cb-3"
+        "cb-4 cb-5 cb-7"
+        "cb-8 cb-9 cb-10"
+        "cb-11 cb-6 .";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.cb-1 {
+    grid-area: cb-1;
+}
+
+.cb-2 {
+    grid-area: cb-2;
+}
+
+.cb-3 {
+    grid-area: cb-3;
+}
+
+.cb-4 {
+    grid-area: cb-4;
+}
+
+.cb-5 {
+    grid-area: cb-5;
+}
+
+.cb-7 {
+    grid-area: cb-7;
+}
+
+.cb-8 {
+    grid-area: cb-8;
+}
+
+.cb-9 {
+    grid-area: cb-9;
+}
+
+.cb-10 {
+    grid-area: cb-10;
+}
+
+.cb-11 {
+    grid-area: cb-11;
+}
+
+.cb-6 {
+    grid-area: cb-6;
+}
