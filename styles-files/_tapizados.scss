@@ -234,3 +234,593 @@
 .cb-6 {
     grid-area: cb-6;
 }
+
+//epecuen pana estampado
+
+.epecuen {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.3fr 0.4fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "ep-1 ep-2 ep-3"
+        "ep-4 ep-5 ep-6"
+        "ep-7 ep-8 ep-9"
+        "ep-10 ep-11 ep-12"
+        "ep-13 ep-14 ep-15"
+        "ep-16 ep-17 ep-18"
+        "ep-19 ep-20 ep-21"
+        "ep-22 ep-23 ep-24"
+        "ep-25 . ."
+        "ep-25 . .";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.ep-1 {
+    grid-area: ep-1;
+}
+
+.ep-2 {
+    grid-area: ep-2;
+}
+
+.ep-3 {
+    grid-area: ep-3;
+}
+
+.ep-4 {
+    grid-area: ep-4;
+}
+
+.ep-5 {
+    grid-area: ep-5;
+}
+
+.ep-6 {
+    grid-area: ep-6;
+}
+
+.ep-7 {
+    grid-area: ep-7;
+}
+
+.ep-8 {
+    grid-area: ep-8;
+}
+
+.ep-9 {
+    grid-area: ep-9;
+}
+
+.ep-10 {
+    grid-area: ep-10;
+}
+
+.ep-11 {
+    grid-area: ep-11;
+}
+
+.ep-12 {
+    grid-area: ep-12;
+}
+
+.ep-13 {
+    grid-area: ep-13;
+}
+
+.ep-14 {
+    grid-area: ep-14;
+}
+
+.ep-15 {
+    grid-area: ep-15;
+}
+
+.ep-16 {
+    grid-area: ep-16;
+}
+
+.ep-17 {
+    grid-area: ep-17;
+}
+
+.ep-18 {
+    grid-area: ep-18;
+}
+
+.ep-19 {
+    grid-area: ep-19;
+}
+
+.ep-20 {
+    grid-area: ep-20;
+}
+
+.ep-21 {
+    grid-area: ep-21;
+}
+
+.ep-22 {
+    grid-area: ep-22;
+}
+
+.ep-23 {
+    grid-area: ep-23;
+}
+
+.ep-24 {
+    grid-area: ep-24;
+}
+
+.ep-25 {
+    grid-area: ep-25;
+}
+
+//flamingo pana estampado
+
+.flamingo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "fl-1 fl-2 fl-3"
+        "fl-4 fl-5 fl-6"
+        "fl-7 fl-8 fl-9"
+        "fl-10 fl-11 fl-12"
+        "fl-13 fl-14 .";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.fl-1 {
+    grid-area: fl-1;
+}
+
+.fl-2 {
+    grid-area: fl-2;
+}
+
+.fl-3 {
+    grid-area: fl-3;
+}
+
+.fl-4 {
+    grid-area: fl-4;
+}
+
+.fl-5 {
+    grid-area: fl-5;
+}
+
+.fl-6 {
+    grid-area: fl-6;
+}
+
+.fl-7 {
+    grid-area: fl-7;
+}
+
+.fl-8 {
+    grid-area: fl-8;
+}
+
+.fl-9 {
+    grid-area: fl-9;
+}
+
+.fl-10 {
+    grid-area: fl-10;
+}
+
+.fl-11 {
+    grid-area: fl-11;
+}
+
+.fl-12 {
+    grid-area: fl-12;
+}
+
+.fl-13 {
+    grid-area: fl-13;
+}
+
+.fl-14 {
+    grid-area: fl-14;
+}
+
+//langostura suave al tacto
+
+.langostura {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "lan-1 lan-2 lan-3"
+        "lan-4 lan-5 lan-6"
+        "lan-7 lan-8 lan-9"
+        "lan-10 lan-11 lan-12"
+        "lan-13 lan-14 lan-15";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.lan-1 {
+    grid-area: lan-1;
+}
+
+.lan-2 {
+    grid-area: lan-2;
+}
+
+.lan-3 {
+    grid-area: lan-3;
+}
+
+.lan-4 {
+    grid-area: lan-4;
+}
+
+.lan-5 {
+    grid-area: lan-5;
+}
+
+.lan-6 {
+    grid-area: lan-6;
+}
+
+.lan-7 {
+    grid-area: lan-7;
+}
+
+.lan-8 {
+    grid-area: lan-8;
+}
+
+.lan-9 {
+    grid-area: lan-9;
+}
+
+.lan-10 {
+    grid-area: lan-10;
+}
+
+.lan-11 {
+    grid-area: lan-11;
+}
+
+.lan-12 {
+    grid-area: lan-12;
+}
+
+.lan-13 {
+    grid-area: lan-13;
+}
+
+.lan-14 {
+    grid-area: lan-14;
+}
+
+.lan-15 {
+    grid-area: lan-15;
+}
+
+// lino espacio
+
+.lino-spacio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "lsz-1 lsz-2 lsz-3";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.lsz-1 {
+    grid-area: lsz-1;
+}
+
+.lsz-2 {
+    grid-area: lsz-2;
+}
+
+.lsz-3 {
+    grid-area: lsz-3;
+}
+
+//lino vallarta
+
+.lino-vallarta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "lnvh-1 lnvh-2 lnvh-3"
+        "lnvh-4 lnvh-5 lnvh-6"
+        "lnvh-7 lnvh-8 lnvh-9"
+        "lnvh-10 lnvh-11 lnvh-12"
+        "lnvh-13 lnvh-14 lnvh-15"
+        "lnvh-16 lnvh-17 lnvh-18"
+        "lnvh-19 lnvh-20 .";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.lnvh-1 {
+    grid-area: lnvh-1;
+}
+
+.lnvh-2 {
+    grid-area: lnvh-2;
+}
+
+.lnvh-3 {
+    grid-area: lnvh-3;
+}
+
+.lnvh-4 {
+    grid-area: lnvh-4;
+}
+
+.lnvh-5 {
+    grid-area: lnvh-5;
+}
+
+.lnvh-6 {
+    grid-area: lnvh-6;
+}
+
+.lnvh-7 {
+    grid-area: lnvh-7;
+}
+
+.lnvh-8 {
+    grid-area: lnvh-8;
+}
+
+.lnvh-9 {
+    grid-area: lnvh-9;
+}
+
+.lnvh-10 {
+    grid-area: lnvh-10;
+}
+
+.lnvh-11 {
+    grid-area: lnvh-11;
+}
+
+.lnvh-12 {
+    grid-area: lnvh-12;
+}
+
+.lnvh-13 {
+    grid-area: lnvh-13;
+}
+
+.lnvh-14 {
+    grid-area: lnvh-14;
+}
+
+.lnvh-15 {
+    grid-area: lnvh-15;
+}
+
+.lnvh-16 {
+    grid-area: lnvh-16;
+}
+
+.lnvh-17 {
+    grid-area: lnvh-17;
+}
+
+.lnvh-18 {
+    grid-area: lnvh-18;
+}
+
+.lnvh-19 {
+    grid-area: lnvh-19;
+}
+
+.lnvh-20 {
+    grid-area: lnvh-20;
+}
+
+// lola faja
+
+.lola-faja-pana-paul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "lf-1 lf-2 lf-3"
+        "lf-4 lf-5 lf-6"
+        "lf-7 lf-8 lf-9"
+        "lf-10 lf-11 lf-12";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.lf-1 {
+    grid-area: lf-1;
+}
+
+.lf-2 {
+    grid-area: lf-2;
+}
+
+.lf-3 {
+    grid-area: lf-3;
+}
+
+.lf-4 {
+    grid-area: lf-4;
+}
+
+.lf-5 {
+    grid-area: lf-5;
+}
+
+.lf-6 {
+    grid-area: lf-6;
+}
+
+.lf-7 {
+    grid-area: lf-7;
+}
+
+.lf-8 {
+    grid-area: lf-8;
+}
+
+.lf-9 {
+    grid-area: lf-9;
+}
+
+.lf-10 {
+    grid-area: lf-10;
+}
+
+.lf-11 {
+    grid-area: lf-11;
+}
+
+.lf-12 {
+    grid-area: lf-12;
+}
+
+//quemu chenille estampado
+
+.quemu-uno {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "q-1 q-2 q-3"
+        "q-4 . q-5";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.q-1 {
+    grid-area: q-1;
+}
+
+.q-2 {
+    grid-area: q-2;
+}
+
+.q-3 {
+    grid-area: q-3;
+}
+
+.q-4 {
+    grid-area: q-4;
+}
+
+.q-5 {
+    grid-area: q-5;
+}
+
+// star chevron & star flor
+
+.star {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2rem 0.5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "st-1 st-2 st-3"
+        "st-4 st-5 st-6"
+        "st-7 st-8 st-9"
+        "st-10 . .";
+
+    div img {
+        width: 100%;
+        height: 100%;
+        border: 3px solid #F9813A;
+    }
+}
+
+.st-1 {
+    grid-area: st-1;
+}
+
+.st-2 {
+    grid-area: st-2;
+}
+
+.st-3 {
+    grid-area: st-3;
+}
+
+.st-4 {
+    grid-area: st-4;
+}
+
+.st-5 {
+    grid-area: st-5;
+}
+
+.st-6 {
+    grid-area: st-6;
+}
+
+.st-7 {
+    grid-area: st-7;
+}
+
+.st-8 {
+    grid-area: st-8;
+}
+
+.st-9 {
+    grid-area: st-9;
+}
+
+.st-10 {
+    grid-area: st-10;
+}
